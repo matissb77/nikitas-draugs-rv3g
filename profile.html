@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;900&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="css/main.css" />
+        <link rel="stylesheet" href="css/navigation.css" />
+        <link rel="stylesheet" href="css/profile.css" />
+        <title>Profils</title>
+    </head>
+    <body>
+        <img class="front" src="photos/cell-tower-profile.jpg" alt="" />
+        <main>
+            <nav>
+                <div class="link">
+                    <a id="index-page" href="index.html">
+                        <img src="photos/home.png" alt="" />
+                        <p>sākums</p>
+                    </a>
+                </div>
+                <div class="link">
+                    <a id="plans-page" href="plans.html">
+                        <img src="photos/phone.png" alt="" />
+                        <p>tarifi</p>
+                    </a>
+                </div>
+                <div class="link">
+                    <a id="profile-page" href="profile.html">
+                        <img src="photos/user_profile.png" alt="" />
+                        <p>profils</p>
+                    </a>
+                </div>
+            </nav>
+            <div class="profile-info">
+                <div class="empty"></div>
+                <div class="info">
+                    <div class="regular-info">
+                        <h1>Matīss Ledus</h1>
+                        <h2>mans@gmail.com</h2>
+                        <h2>25459012</h2>
+                    </div>
+
+                    <div class="plan-info">
+                        <h1>BEZLIMITA ZVANI</h1>
+                        <p>
+                            <span
+                                style="
+                                    font-weight: 600;
+                                    font-size: 2.3rem;
+                                    color: #6c6c6c;
+                                "
+                                >6,50€
+                            </span>
+                            <span style="font-size: 1rem; color: #6c6c6c"
+                                >30 dienas</span
+                            >
+                        </p>
+                        <h3>TARIFS KOPŠ 17.04.2021</h3>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>
+<script>
+    const page = document.getElementById("profile-page");
+    page.classList.add("active-page");
+</script>

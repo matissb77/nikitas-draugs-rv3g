@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;900&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="css/main.css" />
+        <link rel="stylesheet" href="css/navigation.css" />
+        <link rel="stylesheet" href="css/index.css" />
+        <link rel="stylesheet" href="css/plans.css" />
+        <title>Tarifi</title>
+    </head>
+    <body>
+        <main>
+            <nav>
+                <div class="link">
+                    <a id="index-page" href="index.html">
+                        <img src="photos/home.png" alt="" />
+                        <p>sākums</p>
+                    </a>
+                </div>
+                <div class="link">
+                    <a id="plans-page" href="plans.html">
+                        <img src="photos/phone.png" alt="" />
+                        <p>tarifi</p>
+                    </a>
+                </div>
+                <div class="link">
+                    <a id="profile-page" href="profile.html">
+                        <img src="photos/user_profile.png" alt="" />
+                        <p>profils</p>
+                    </a>
+                </div>
+            </nav>
+            <section id="main-image">
+                <img src="photos/cell_tower.jpg" alt="" />
+                <div>
+                    <a class="plan" id="pre-pay-plan" href="#">PRIEKŠAPMAKSA</a>
+                    <a class="plan" id="post-pay-plan" href="#">PĒCAPMAKSA</a>
+                    <a class="plan" id="internet-plan" href="#"
+                        >MOBĪLAIS INTERNETS</a
+                    >
+                </div>
+            </section>
+            <section id="tarifi">
+                <div style="margin-bottom: 10rem" class="tarifs">
+                    <img src="photos/unlimited_calls.jpg" alt="" />
+                    <div class="info">
+                        <h1>BEZLIMITA ZVANI</h1>
+                        <p>∞ MIN | ∞ SMS</p>
+                        <div
+                            style="
+                                display: flex;
+                                width: 100%;
+                                justify-content: space-between;
+                            "
+                        >
+                            <p>
+                                <span
+                                    style="font-weight: 600; font-size: 2.3rem"
+                                    >6,50€
+                                </span>
+                                <span style="font-size: 1rem">30 dienas</span>
+                            </p>
+                            <img
+                                class="arrow"
+                                src="photos/arrow.png"
+                                alt=""
+                                style="
+                                    cursor: pointer;
+                                    width: 10%;
+                                    height: 5%;
+                                    margin-top: 0.3rem;
+                                "
+                            />
+                        </div>
+                    </div>
+                </div>
+                <div style="margin-bottom: 10rem" class="tarifs">
+                    <img src="photos/unlimited_internet.jpg" alt="" />
+                    <div class="info">
+                        <h1>BEZLIMITA INTERNETS</h1>
+                        <p>10 MIN | ∞ SMS | ∞ MB</p>
+                        <div
+                            style="
+                                display: flex;
+                                width: 100%;
+                                justify-content: space-between;
+                            "
+                        >
+                            <p>
+                                <span
+                                    style="font-weight: 600; font-size: 2.3rem"
+                                    >2,49€
+                                </span>
+                                <span style="font-size: 1rem">7 dienas</span>
+                            </p>
+                            <img
+                                class="arrow"
+                                src="photos/arrow.png"
+                                alt=""
+                                style="
+                                    cursor: pointer;
+                                    width: 10%;
+                                    height: 5%;
+                                    margin-top: 0.3rem;
+                                "
+                            />
+                        </div>
+                    </div>
+                </div>
+                <div style="margin-bottom: 10rem" class="tarifs">
+                    <img src="photos/unlimited_all.jpg" alt="" />
+                    <div class="info">
+                        <h1>BEZLIMITS</h1>
+                        <p>∞ MIN | ∞ SMS | ∞ MB</p>
+                        <div
+                            style="
+                                display: flex;
+                                width: 100%;
+                                justify-content: space-between;
+                            "
+                        >
+                            <p>
+                                <span
+                                    style="font-weight: 600; font-size: 2.3rem"
+                                    >6,50€
+                                </span>
+                                <span style="font-size: 1rem">7 dienas</span>
+                            </p>
+                            <img
+                                class="arrow"
+                                src="photos/arrow.png"
+                                alt=""
+                                style="
+                                    cursor: pointer;
+                                    width: 10%;
+                                    height: 5%;
+                                    margin-top: 0.3rem;
+                                "
+                            />
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div id="single-plan" class="hidden"></div>
+        </main>
+    </body>
+</html>
+<script>
+    const page = document.getElementById("plans-page");
+    const prePayCategory = document.getElementById("pre-pay-plan");
+    page.classList.add("active-page");
+    prePayCategory.classList.add("active-page");
+
+    document.querySelectorAll(".plan").forEach((category) => {
+        category.addEventListener("click", (event) => {
+            event.preventDefault();
+            document
+                .querySelectorAll(".plan")
+                .forEach((el) => el.classList.remove("active-page"));
+            event.target.classList.add("active-page");
+
+            document.getElementById("tarifi").classList.remove("hidden");
+            document.getElementById("single-plan").classList.add("hidden");
+        });
+    });
+
+    document.querySelectorAll(".arrow").forEach((arrow) => {
+        arrow.addEventListener("click", (event) => {
+            document.getElementById("tarifi").classList.add("hidden");
+
+            showSinglePlan();
+        });
+    });
+
+    const showSinglePlan = () => {
+        document.getElementById("single-plan").innerHTML = "";
+        document.getElementById("single-plan").innerHTML =
+            '<div id="single-plan"><img src="photos/unlimited_calls.jpg" alt="" /><div id="single-plan-info"><div style="margin-bottom: 3rem"><h1>BEZLIMITA ZVANI</h1><p><span style="font-weight: 600; font-size: 2.3rem">6,50€</span><span style="font-size: 1rem">30 dienas</span></p></div><div style="display: flex;align-items: center;margin-bottom: 3rem"><div style="text-align: center"><p>∞ MIN UZ LIELĀKAJIEM TĪKLIEM LATVIJĀ</p><p>∞ MIN UZ LIELĀKAJIEM TĪKLIEM LATVIJĀ</p><p class="no-border">TARIFA PLĀNA TERMIŅŠ 30 DIENAS</p></div><textarea name="" id="" cols="30" rows="5"></textarea></div><button>PIESLĒGT TARIFU PLĀNU</button></div></div>';
+        document.getElementById("single-plan").classList.remove("hidden");
+    };
+</script>

@@ -1,0 +1,52 @@
+body,
+main {
+    position: relative;
+    height: 100vh;
+}
+
+.profile-info {
+    display: flex;
+    flex-direction: row;
+    height: 85%;
+}
+
+.empty {
+    /* border: 1px solid black; */
+    width: 40%;
+}
+
+.info {
+    /* border: 1px solid green; */
+    width: 60%;
+    height: 100%;
+}
+
+.front {
+    position: absolute;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.regular-info h1 {
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    font-size: 6rem;
+}
+
+h2 {
+    margin-bottom: 2rem;
+    font-size: 4rem;
+}
+
+.regular-info {
+    margin-bottom: 15rem;
+}
+
+.plan-info h1 {
+    /* margin-bottom: 3rem; */
+    font-size: 4rem;
+}
+
+.plan-info h3 {
+    font-size: 3rem;
+}

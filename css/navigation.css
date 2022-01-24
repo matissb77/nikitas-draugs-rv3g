@@ -1,0 +1,17 @@
+nav p {
+    text-align: center;
+}
+nav {
+    padding: 1rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav div {
+    margin-right: 5rem;
+    width: 3%;
+}
+
+nav div img {
+    width: 100%;
+}

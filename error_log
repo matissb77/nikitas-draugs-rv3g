@@ -1,0 +1,103 @@
+[25-Apr-2021 14:31:03 Europe/Riga] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1901 Function or expression '`GETDATE`()' cannot be used in the DEFAULT clause of `plan_since_date` in /home3/progpama/vselivjorstovs.progpamati.lv/create_table.php:51
+Stack trace:
+#0 {main}
+  thrown in /home3/progpama/vselivjorstovs.progpamati.lv/create_table.php on line 51
+[25-Apr-2021 14:31:51 Europe/Riga] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1901 Function or expression '`GETDATE`()' cannot be used in the DEFAULT clause of `plan_since_date` in /home3/progpama/vselivjorstovs.progpamati.lv/create_table.php:51
+Stack trace:
+#0 {main}
+  thrown in /home3/progpama/vselivjorstovs.progpamati.lv/create_table.php on line 51
+[25-Apr-2021 14:34:21 Europe/Riga] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1901 Function or expression '`GETDATE`()' cannot be used in the DEFAULT clause of `plan_since_date` in /home3/progpama/vselivjorstovs.progpamati.lv/create_table.php:51
+Stack trace:
+#0 {main}
+  thrown in /home3/progpama/vselivjorstovs.progpamati.lv/create_table.php on line 51
+[25-Apr-2021 17:26:00 Europe/Riga] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'progpama_vselivjorstovs.kolonnas' doesn't exist in /home3/progpama/vselivjorstovs.progpamati.lv/see_tables.php:15
+Stack trace:
+#0 {main}
+  thrown in /home3/progpama/vselivjorstovs.progpamati.lv/see_tables.php on line 15
+[25-Apr-2021 17:26:43 Europe/Riga] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'progpama_vselivjorstovs.kolonnas' doesn't exist in /home3/progpama/vselivjorstovs.progpamati.lv/see_tables.php:15
+Stack trace:
+#0 {main}
+  thrown in /home3/progpama/vselivjorstovs.progpamati.lv/see_tables.php on line 15
+[25-Apr-2021 17:26:45 Europe/Riga] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'progpama_vselivjorstovs.kolonnas' doesn't exist in /home3/progpama/vselivjorstovs.progpamati.lv/see_tables.php:15
+Stack trace:
+#0 {main}
+  thrown in /home3/progpama/vselivjorstovs.progpamati.lv/see_tables.php on line 15
+[25-Apr-2021 17:27:02 Europe/Riga] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'progpama_vselivjorstovs.kolonnas' doesn't exist in /home3/progpama/vselivjorstovs.progpamati.lv/see_tables.php:15
+Stack trace:
+#0 {main}
+  thrown in /home3/progpama/vselivjorstovs.progpamati.lv/see_tables.php on line 15
+[29-Apr-2021 23:03:32 Europe/Riga] PHP Warning:  require_once(../db_connection.php): failed to open stream: No such file or directory in /home3/progpama/vselivjorstovs.progpamati.lv/db_selects/select_user.php on line 2
+[29-Apr-2021 23:03:32 Europe/Riga] PHP Fatal error:  require_once(): Failed opening required '../db_connection.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home3/progpama/vselivjorstovs.progpamati.lv/db_selects/select_user.php on line 2
+[29-Apr-2021 23:03:56 Europe/Riga] PHP Warning:  require_once(../db_connection.php): failed to open stream: No such file or directory in /home3/progpama/vselivjorstovs.progpamati.lv/db_selects/select_user.php on line 2
+[29-Apr-2021 23:03:56 Europe/Riga] PHP Fatal error:  require_once(): Failed opening required '../db_connection.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home3/progpama/vselivjorstovs.progpamati.lv/db_selects/select_user.php on line 2
+[30-Apr-2021 00:39:31 Europe/Riga] PHP Parse error:  syntax error, unexpected end of file in /home3/progpama/vselivjorstovs.progpamati.lv/plans.php on line 95
+[30-Apr-2021 00:39:32 Europe/Riga] PHP Parse error:  syntax error, unexpected end of file in /home3/progpama/vselivjorstovs.progpamati.lv/plans.php on line 95
+[30-Apr-2021 00:39:52 Europe/Riga] PHP Parse error:  syntax error, unexpected end of file in /home3/progpama/vselivjorstovs.progpamati.lv/plans.php on line 95
+[30-Apr-2021 00:39:53 Europe/Riga] PHP Parse error:  syntax error, unexpected end of file in /home3/progpama/vselivjorstovs.progpamati.lv/plans.php on line 95
+[30-Apr-2021 00:55:04 Europe/Riga] PHP Warning:  require_once(../db_connection.php): failed to open stream: No such file or directory in /home3/progpama/vselivjorstovs.progpamati.lv/db_selects/select_plans.php on line 2
+[30-Apr-2021 00:55:04 Europe/Riga] PHP Fatal error:  require_once(): Failed opening required '../db_connection.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home3/progpama/vselivjorstovs.progpamati.lv/db_selects/select_plans.php on line 2
+[30-Apr-2021 00:55:04 Europe/Riga] PHP Warning:  require_once(../db_connection.php): failed to open stream: No such file or directory in /home3/progpama/vselivjorstovs.progpamati.lv/db_selects/select_plans.php on line 2
+[30-Apr-2021 00:55:04 Europe/Riga] PHP Fatal error:  require_once(): Failed opening required '../db_connection.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home3/progpama/vselivjorstovs.progpamati.lv/db_selects/select_plans.php on line 2
+[30-Apr-2021 00:55:06 Europe/Riga] PHP Warning:  require_once(../db_connection.php): failed to open stream: No such file or directory in /home3/progpama/vselivjorstovs.progpamati.lv/db_selects/select_plans.php on line 2
+[30-Apr-2021 00:55:06 Europe/Riga] PHP Fatal error:  require_once(): Failed opening required '../db_connection.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home3/progpama/vselivjorstovs.progpamati.lv/db_selects/select_plans.php on line 2
+[30-Apr-2021 01:12:02 Europe/Riga] PHP Notice:  Array to string conversion in /home3/progpama/vselivjorstovs.progpamati.lv/plans.php on line 65
+[01-May-2021 14:04:46 Europe/Riga] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'VARCHAR(100)' at line 2 in /home3/progpama/vselivjorstovs.progpamati.lv/create_table.php:56
+Stack trace:
+#0 {main}
+  thrown in /home3/progpama/vselivjorstovs.progpamati.lv/create_table.php on line 56
+[01-May-2021 14:04:58 Europe/Riga] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'VARCHAR(100)' at line 2 in /home3/progpama/vselivjorstovs.progpamati.lv/create_table.php:56
+Stack trace:
+#0 {main}
+  thrown in /home3/progpama/vselivjorstovs.progpamati.lv/create_table.php on line 56
+[01-May-2021 14:13:23 Europe/Riga] PHP Warning:  require_once(../db_connection.php): failed to open stream: No such file or directory in /home3/progpama/vselivjorstovs.progpamati.lv/db_selects/select_plans.php on line 2
+[01-May-2021 14:13:23 Europe/Riga] PHP Fatal error:  require_once(): Failed opening required '../db_connection.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home3/progpama/vselivjorstovs.progpamati.lv/db_selects/select_plans.php on line 2
+[03-May-2021 19:36:26 Europe/Riga] PHP Notice:  Undefined offset: 0 in /home3/progpama/vselivjorstovs.progpamati.lv/profile.php on line 25
+[03-May-2021 19:36:26 Europe/Riga] PHP Notice:  Undefined offset: 0 in /home3/progpama/vselivjorstovs.progpamati.lv/profile.php on line 25
+[03-May-2021 19:36:26 Europe/Riga] PHP Notice:  Undefined offset: 0 in /home3/progpama/vselivjorstovs.progpamati.lv/profile.php on line 26
+[03-May-2021 19:36:26 Europe/Riga] PHP Notice:  Undefined offset: 0 in /home3/progpama/vselivjorstovs.progpamati.lv/profile.php on line 27
+[03-May-2021 19:36:26 Europe/Riga] PHP Notice:  Undefined offset: 0 in /home3/progpama/vselivjorstovs.progpamati.lv/profile.php on line 31
+[03-May-2021 19:36:26 Europe/Riga] PHP Notice:  Undefined offset: 0 in /home3/progpama/vselivjorstovs.progpamati.lv/profile.php on line 37
+[03-May-2021 19:36:26 Europe/Riga] PHP Notice:  Undefined offset: 0 in /home3/progpama/vselivjorstovs.progpamati.lv/profile.php on line 39
+[03-May-2021 19:36:26 Europe/Riga] PHP Notice:  Undefined offset: 0 in /home3/progpama/vselivjorstovs.progpamati.lv/profile.php on line 41
+[03-May-2021 19:36:44 Europe/Riga] PHP Notice:  Undefined offset: 0 in /home3/progpama/vselivjorstovs.progpamati.lv/profile.php on line 25
+[03-May-2021 19:36:44 Europe/Riga] PHP Notice:  Undefined offset: 0 in /home3/progpama/vselivjorstovs.progpamati.lv/profile.php on line 25
+[03-May-2021 19:36:44 Europe/Riga] PHP Notice:  Undefined offset: 0 in /home3/progpama/vselivjorstovs.progpamati.lv/profile.php on line 26
+[03-May-2021 19:36:44 Europe/Riga] PHP Notice:  Undefined offset: 0 in /home3/progpama/vselivjorstovs.progpamati.lv/profile.php on line 27
+[03-May-2021 19:36:44 Europe/Riga] PHP Notice:  Undefined offset: 0 in /home3/progpama/vselivjorstovs.progpamati.lv/profile.php on line 31
+[03-May-2021 19:36:44 Europe/Riga] PHP Notice:  Undefined offset: 0 in /home3/progpama/vselivjorstovs.progpamati.lv/profile.php on line 37
+[03-May-2021 19:36:44 Europe/Riga] PHP Notice:  Undefined offset: 0 in /home3/progpama/vselivjorstovs.progpamati.lv/profile.php on line 39
+[03-May-2021 19:36:44 Europe/Riga] PHP Notice:  Undefined offset: 0 in /home3/progpama/vselivjorstovs.progpamati.lv/profile.php on line 41
+[03-May-2021 19:36:53 Europe/Riga] PHP Notice:  Undefined offset: 0 in /home3/progpama/vselivjorstovs.progpamati.lv/profile.php on line 25
+[03-May-2021 19:36:53 Europe/Riga] PHP Notice:  Undefined offset: 0 in /home3/progpama/vselivjorstovs.progpamati.lv/profile.php on line 25
+[03-May-2021 19:36:53 Europe/Riga] PHP Notice:  Undefined offset: 0 in /home3/progpama/vselivjorstovs.progpamati.lv/profile.php on line 26
+[03-May-2021 19:36:53 Europe/Riga] PHP Notice:  Undefined offset: 0 in /home3/progpama/vselivjorstovs.progpamati.lv/profile.php on line 27
+[03-May-2021 19:36:53 Europe/Riga] PHP Notice:  Undefined offset: 0 in /home3/progpama/vselivjorstovs.progpamati.lv/profile.php on line 31
+[03-May-2021 19:36:53 Europe/Riga] PHP Notice:  Undefined offset: 0 in /home3/progpama/vselivjorstovs.progpamati.lv/profile.php on line 37
+[03-May-2021 19:36:53 Europe/Riga] PHP Notice:  Undefined offset: 0 in /home3/progpama/vselivjorstovs.progpamati.lv/profile.php on line 39
+[03-May-2021 19:36:53 Europe/Riga] PHP Notice:  Undefined offset: 0 in /home3/progpama/vselivjorstovs.progpamati.lv/profile.php on line 41
+[03-May-2021 19:37:29 Europe/Riga] PHP Notice:  Undefined offset: 0 in /home3/progpama/vselivjorstovs.progpamati.lv/profile.php on line 25
+[03-May-2021 19:37:29 Europe/Riga] PHP Notice:  Undefined offset: 0 in /home3/progpama/vselivjorstovs.progpamati.lv/profile.php on line 25
+[03-May-2021 19:37:29 Europe/Riga] PHP Notice:  Undefined offset: 0 in /home3/progpama/vselivjorstovs.progpamati.lv/profile.php on line 26
+[03-May-2021 19:37:29 Europe/Riga] PHP Notice:  Undefined offset: 0 in /home3/progpama/vselivjorstovs.progpamati.lv/profile.php on line 27
+[03-May-2021 19:37:29 Europe/Riga] PHP Notice:  Undefined offset: 0 in /home3/progpama/vselivjorstovs.progpamati.lv/profile.php on line 31
+[03-May-2021 19:37:29 Europe/Riga] PHP Notice:  Undefined offset: 0 in /home3/progpama/vselivjorstovs.progpamati.lv/profile.php on line 37
+[03-May-2021 19:37:29 Europe/Riga] PHP Notice:  Undefined offset: 0 in /home3/progpama/vselivjorstovs.progpamati.lv/profile.php on line 39
+[03-May-2021 19:37:29 Europe/Riga] PHP Notice:  Undefined offset: 0 in /home3/progpama/vselivjorstovs.progpamati.lv/profile.php on line 41
+[03-May-2021 19:39:13 Europe/Riga] PHP Notice:  Undefined index: title in /home3/progpama/vselivjorstovs.progpamati.lv/profile.php on line 31
+[03-May-2021 19:39:13 Europe/Riga] PHP Notice:  Undefined index: price in /home3/progpama/vselivjorstovs.progpamati.lv/profile.php on line 37
+[03-May-2021 19:39:13 Europe/Riga] PHP Notice:  Undefined index: duration in /home3/progpama/vselivjorstovs.progpamati.lv/profile.php on line 39
+[03-May-2021 19:41:14 Europe/Riga] PHP Notice:  Undefined index: title in /home3/progpama/vselivjorstovs.progpamati.lv/profile.php on line 31
+[03-May-2021 19:41:14 Europe/Riga] PHP Notice:  Undefined index: price in /home3/progpama/vselivjorstovs.progpamati.lv/profile.php on line 37
+[03-May-2021 19:41:14 Europe/Riga] PHP Notice:  Undefined index: duration in /home3/progpama/vselivjorstovs.progpamati.lv/profile.php on line 39
+[04-May-2021 20:20:30 Europe/Riga] PHP Notice:  Undefined index: id in /home3/progpama/vselivjorstovs.progpamati.lv/index.php on line 135
+[04-May-2021 20:20:45 Europe/Riga] PHP Notice:  Undefined index: id in /home3/progpama/vselivjorstovs.progpamati.lv/index.php on line 135
+[04-May-2021 22:20:27 Europe/Riga] PHP Notice:  Undefined index: id in /home3/progpama/vselivjorstovs.progpamati.lv/navigation.php on line 10
+[04-May-2021 22:20:27 Europe/Riga] PHP Notice:  Undefined index: id in /home3/progpama/vselivjorstovs.progpamati.lv/profile.php on line 21
+[04-May-2021 22:20:27 Europe/Riga] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in /home3/progpama/vselivjorstovs.progpamati.lv/db_selects/select_user.php:17
+Stack trace:
+#0 /home3/progpama/vselivjorstovs.progpamati.lv/profile.php(22): require_once()
+#1 {main}
+  thrown in /home3/progpama/vselivjorstovs.progpamati.lv/db_selects/select_user.php on line 17
+[04-May-2021 23:20:43 Europe/Riga] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home3/progpama/vselivjorstovs.progpamati.lv/profile.php on line 47
+[04-May-2021 23:57:51 Europe/Riga] PHP Warning:  require_once(db_selects/select_popular_plans.php): failed to open stream: No such file or directory in /home3/progpama/vselivjorstovs.progpamati.lv/index.php on line 21
+[04-May-2021 23:57:51 Europe/Riga] PHP Fatal error:  require_once(): Failed opening required 'db_selects/select_popular_plans.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home3/progpama/vselivjorstovs.progpamati.lv/index.php on line 21

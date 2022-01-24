@@ -1,0 +1,67 @@
+[03-May-2021 23:28:20 Europe/Riga] PHP Warning:  require_once(insert_user.php): failed to open stream: No such file or directory in /home3/progpama/vselivjorstovs.progpamati.lv/form_actions/handle_login.php on line 3
+[03-May-2021 23:28:20 Europe/Riga] PHP Fatal error:  require_once(): Failed opening required 'insert_user.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home3/progpama/vselivjorstovs.progpamati.lv/form_actions/handle_login.php on line 3
+[03-May-2021 23:29:35 Europe/Riga] PHP Notice:  Undefined variable: sql in /home3/progpama/vselivjorstovs.progpamati.lv/db_inserts/insert_user.php on line 9
+[03-May-2021 23:29:35 Europe/Riga] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: trying to execute an empty query in /home3/progpama/vselivjorstovs.progpamati.lv/db_inserts/insert_user.php:13
+Stack trace:
+#0 /home3/progpama/vselivjorstovs.progpamati.lv/form_actions/handle_login.php(3): require_once()
+#1 {main}
+  thrown in /home3/progpama/vselivjorstovs.progpamati.lv/db_inserts/insert_user.php on line 13
+[03-May-2021 23:29:48 Europe/Riga] PHP Notice:  Undefined variable: sql in /home3/progpama/vselivjorstovs.progpamati.lv/db_inserts/insert_user.php on line 9
+[03-May-2021 23:29:48 Europe/Riga] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: trying to execute an empty query in /home3/progpama/vselivjorstovs.progpamati.lv/db_inserts/insert_user.php:13
+Stack trace:
+#0 /home3/progpama/vselivjorstovs.progpamati.lv/form_actions/handle_login.php(3): require_once()
+#1 {main}
+  thrown in /home3/progpama/vselivjorstovs.progpamati.lv/db_inserts/insert_user.php on line 13
+[03-May-2021 23:31:01 Europe/Riga] PHP Notice:  Undefined variable: sql in /home3/progpama/vselivjorstovs.progpamati.lv/db_inserts/insert_user.php on line 9
+[03-May-2021 23:31:01 Europe/Riga] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: trying to execute an empty query in /home3/progpama/vselivjorstovs.progpamati.lv/db_inserts/insert_user.php:13
+Stack trace:
+#0 /home3/progpama/vselivjorstovs.progpamati.lv/form_actions/handle_login.php(3): require_once()
+#1 {main}
+  thrown in /home3/progpama/vselivjorstovs.progpamati.lv/db_inserts/insert_user.php on line 13
+[03-May-2021 23:31:10 Europe/Riga] PHP Notice:  Undefined variable: sql in /home3/progpama/vselivjorstovs.progpamati.lv/db_inserts/insert_user.php on line 9
+[03-May-2021 23:31:10 Europe/Riga] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: trying to execute an empty query in /home3/progpama/vselivjorstovs.progpamati.lv/db_inserts/insert_user.php:13
+Stack trace:
+#0 /home3/progpama/vselivjorstovs.progpamati.lv/form_actions/handle_login.php(3): require_once()
+#1 {main}
+  thrown in /home3/progpama/vselivjorstovs.progpamati.lv/db_inserts/insert_user.php on line 13
+[03-May-2021 23:32:38 Europe/Riga] PHP Notice:  Undefined variable: sql in /home3/progpama/vselivjorstovs.progpamati.lv/db_inserts/insert_user.php on line 9
+[03-May-2021 23:32:38 Europe/Riga] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: trying to execute an empty query in /home3/progpama/vselivjorstovs.progpamati.lv/db_inserts/insert_user.php:13
+Stack trace:
+#0 /home3/progpama/vselivjorstovs.progpamati.lv/form_actions/handle_login.php(3): require_once()
+#1 {main}
+  thrown in /home3/progpama/vselivjorstovs.progpamati.lv/db_inserts/insert_user.php on line 13
+[03-May-2021 23:41:41 Europe/Riga] PHP Notice:  Undefined variable: plan_id in /home3/progpama/vselivjorstovs.progpamati.lv/db_inserts/insert_user.php on line 6
+[03-May-2021 23:41:41 Europe/Riga] PHP Notice:  Undefined variable: firstname in /home3/progpama/vselivjorstovs.progpamati.lv/db_inserts/insert_user.php on line 6
+[03-May-2021 23:41:41 Europe/Riga] PHP Notice:  Undefined variable: lastname in /home3/progpama/vselivjorstovs.progpamati.lv/db_inserts/insert_user.php on line 6
+[03-May-2021 23:41:41 Europe/Riga] PHP Notice:  Undefined variable: email in /home3/progpama/vselivjorstovs.progpamati.lv/db_inserts/insert_user.php on line 6
+[03-May-2021 23:41:41 Europe/Riga] PHP Notice:  Undefined variable: phone in /home3/progpama/vselivjorstovs.progpamati.lv/db_inserts/insert_user.php on line 6
+[03-May-2021 23:41:41 Europe/Riga] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' "", "", "", "", STR_TO_DATE("April 25 2021", "%M %d %Y"))' at line 1 in /home3/progpama/vselivjorstovs.progpamati.lv/db_inserts/insert_user.php:13
+Stack trace:
+#0 /home3/progpama/vselivjorstovs.progpamati.lv/form_actions/handle_login.php(3): require_once()
+#1 {main}
+  thrown in /home3/progpama/vselivjorstovs.progpamati.lv/db_inserts/insert_user.php on line 13
+[04-May-2021 00:40:51 Europe/Riga] PHP Notice:  Undefined variable: result in /home3/progpama/vselivjorstovs.progpamati.lv/db_selects/select_login.php on line 16
+[04-May-2021 00:42:34 Europe/Riga] PHP Notice:  Undefined variable: result in /home3/progpama/vselivjorstovs.progpamati.lv/db_selects/select_login.php on line 16
+[04-May-2021 00:47:32 Europe/Riga] PHP Notice:  Undefined variable: result1 in /home3/progpama/vselivjorstovs.progpamati.lv/db_selects/select_login.php on line 8
+[04-May-2021 00:47:32 Europe/Riga] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in /home3/progpama/vselivjorstovs.progpamati.lv/db_selects/select_login.php:20
+Stack trace:
+#0 /home3/progpama/vselivjorstovs.progpamati.lv/form_actions/handle_login.php(17): require_once()
+#1 {main}
+  thrown in /home3/progpama/vselivjorstovs.progpamati.lv/db_selects/select_login.php on line 20
+[04-May-2021 23:32:17 Europe/Riga] PHP Notice:  Undefined index: userId in /home3/progpama/vselivjorstovs.progpamati.lv/form_actions/handle_plans.php on line 2
+[04-May-2021 23:32:17 Europe/Riga] PHP Notice:  Undefined index: planId in /home3/progpama/vselivjorstovs.progpamati.lv/form_actions/handle_plans.php on line 3
+[19-May-2021 22:28:26 Europe/Riga] PHP Notice:  Undefined variable: id in /home3/progpama/vselivjorstovs.progpamati.lv/db_selects/select_user.php on line 7
+[19-May-2021 22:28:26 Europe/Riga] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in /home3/progpama/vselivjorstovs.progpamati.lv/db_selects/select_user.php:17
+Stack trace:
+#0 /home3/progpama/vselivjorstovs.progpamati.lv/form_actions/handle_login.php(10): require_once()
+#1 {main}
+  thrown in /home3/progpama/vselivjorstovs.progpamati.lv/db_selects/select_user.php on line 17
+[19-May-2021 22:30:35 Europe/Riga] PHP Notice:  Undefined variable: id in /home3/progpama/vselivjorstovs.progpamati.lv/form_actions/handle_login.php on line 9
+[19-May-2021 22:34:20 Europe/Riga] PHP Notice:  Undefined variable: id in /home3/progpama/vselivjorstovs.progpamati.lv/form_actions/handle_login.php on line 9
+[19-May-2021 22:34:46 Europe/Riga] PHP Notice:  Undefined variable: id in /home3/progpama/vselivjorstovs.progpamati.lv/form_actions/handle_login.php on line 9
+[19-May-2021 22:38:20 Europe/Riga] PHP Notice:  Undefined variable: id in /home3/progpama/vselivjorstovs.progpamati.lv/db_selects/select_user.php on line 7
+[19-May-2021 22:38:20 Europe/Riga] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in /home3/progpama/vselivjorstovs.progpamati.lv/db_selects/select_user.php:17
+Stack trace:
+#0 /home3/progpama/vselivjorstovs.progpamati.lv/form_actions/handle_login.php(10): require_once()
+#1 {main}
+  thrown in /home3/progpama/vselivjorstovs.progpamati.lv/db_selects/select_user.php on line 17

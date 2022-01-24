@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;900&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="css/main.css" />
+        <link rel="stylesheet" href="css/navigation.css" />
+        <link rel="stylesheet" href="css/index.css" />
+        <title>Sākums</title>
+    </head>
+    <body>
+        <main>
+            <nav>
+                <div class="link">
+                    <a id="index-page" href="index.html">
+                        <img src="photos/home.png" alt="" />
+                        <p>sākums</p>
+                    </a>
+                </div>
+                <div class="link">
+                    <a id="plans-page" href="plans.html">
+                        <img src="photos/phone.png" alt="" />
+                        <p>tarifi</p>
+                    </a>
+                </div>
+                <div class="link">
+                    <a id="profile-page" href="profile.html">
+                        <img src="photos/user_profile.png" alt="" />
+                        <p>profils</p>
+                    </a>
+                </div>
+            </nav>
+            <section id="main-image">
+                <img src="photos/pexels-thirdman-5318976.jpg" alt="" />
+                <p>
+                    Nost ar limitācijām telefonā <br />gan lieliem, gan maziem
+                </p>
+            </section>
+            <div id="login">
+                <p id="login-p">pieslēgties</p>
+                <form action="">
+                    <div class="name">
+                        <input type="text" placeholder="Vārds" />
+                        <input type="text" placeholder="Uzvārds" />
+                    </div>
+                    <div class="credentials">
+                        <input type="text" placeholder="Telefona nr." />
+                        <input type="text" placeholder="E-pasts" />
+                    </div>
+                    <div>
+                        <input id="password" type="text" placeholder="Parole" />
+                    </div>
+                    <button id="register-button" type="submit">
+                        reģistrēties
+                    </button>
+                    <button id="login-button" type="submit">pieslēgties</button>
+                </form>
+            </div>
+            <p class="popular">populārākie tarifi</p>
+            <section id="tarifi">
+                <div style="margin-bottom: 10rem">
+                    <img src="photos/children_school.jpg" alt="" />
+                    <div class="info">
+                        <h1>BEZLIMITS SKOLĒNIEM</h1>
+                        <p>
+                            Nebeidzamas iespējas, kas noved pie nebeidzamiem
+                            rezultātiem
+                        </p>
+                        <div
+                            style="
+                                display: flex;
+                                width: 100%;
+                                justify-content: space-between;
+                            "
+                        >
+                            <p>
+                                <span
+                                    style="font-weight: 600; font-size: 2.3rem"
+                                    >9,99
+                                </span>
+                                <span style="font-size: 1rem">€/mēn</span>
+                            </p>
+                            <img
+                                src="photos/arrow.png"
+                                alt=""
+                                style="
+                                    cursor: pointer;
+                                    width: 10%;
+                                    height: 5%;
+                                    margin-top: 0.3rem;
+                                "
+                            />
+                        </div>
+                    </div>
+                </div>
+                <div style="margin-bottom: 10rem">
+                    <img src="photos/juniors.jpg" alt="" />
+                    <div class="info">
+                        <h1>JUNIORI</h1>
+                        <p>150 min zvaniem, bezlimita SMS un 1GB interneta</p>
+                        <div
+                            style="
+                                display: flex;
+                                width: 100%;
+                                justify-content: space-between;
+                            "
+                        >
+                            <p>
+                                <span
+                                    style="font-weight: 600; font-size: 2.3rem"
+                                    >4,99
+                                </span>
+                                <span style="font-size: 1rem">€/mēn</span>
+                            </p>
+                            <img
+                                src="photos/arrow.png"
+                                alt=""
+                                style="
+                                    cursor: pointer;
+                                    width: 10%;
+                                    height: 5%;
+                                    margin-top: 0.3rem;
+                                "
+                            />
+                        </div>
+                    </div>
+                </div>
+                <div style="margin-bottom: 10rem">
+                    <img src="photos/teenagers.jpg" alt="" />
+                    <div class="info">
+                        <h1>BEZLIMITS JAUNIEŠIEM</h1>
+                        <p>Bezlimits gan telefonā, gan televīzijā</p>
+                        <div
+                            style="
+                                display: flex;
+                                width: 100%;
+                                justify-content: space-between;
+                            "
+                        >
+                            <p>
+                                <span
+                                    style="font-weight: 600; font-size: 2.3rem"
+                                    >15,99
+                                </span>
+                                <span style="font-size: 1rem">€/mēn</span>
+                            </p>
+                            <img
+                                src="photos/arrow.png"
+                                alt=""
+                                style="
+                                    cursor: pointer;
+                                    width: 10%;
+                                    height: 5%;
+                                    margin-top: 0.3rem;
+                                "
+                            />
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </body>
+</html>
+<script>
+    const page = document.getElementById("index-page");
+    const showLogin = document.getElementById("login-p");
+
+    page.classList.add("active-page");
+    showLogin.onclick = () => {
+        // const form = document.querySelector("form");
+        // const style = getComputedStyle(form);
+        document.querySelector("form").style.display = "flex";
+        // if (style.display === "none") {
+        //     document.querySelector("form").style.display = "flex";
+        // } else {
+        //     document.querySelector("form").style.display = "none";
+        // }
+    };
+</script>

@@ -1,0 +1,53 @@
+#main-image div {
+    padding: 2em;
+    position: absolute;
+    bottom: 0;
+}
+
+#main-image div a {
+    font-size: 2rem;
+    padding: 1em;
+    color: white;
+}
+
+#main-image {
+    margin-bottom: 6rem;
+}
+
+#single-plan {
+    justify-content: center;
+    padding: 4em;
+    width: 100%;
+    display: flex;
+}
+
+#single-plan img {
+    margin-right: 4rem;
+    width: 30%;
+}
+
+#single-plan-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#single-plan button {
+    font-size: 2rem;
+    border: none;
+    cursor: pointer;
+    background-color: #be8630;
+    border-radius: 10px;
+    font-weight: 900;
+    width: 40%;
+}
+
+#single-plan h1 {
+    font-size: 3rem;
+}
+
+#single-plan p {
+    font-size: 1.5rem;
+    width: 100%;
+    border-bottom: 1px solid black;
+}

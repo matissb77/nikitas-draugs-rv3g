@@ -1,0 +1,2 @@
+[19-May-2021 22:20:32 Europe/Riga] PHP Warning:  require_once(db_connection.php): failed to open stream: No such file or directory in /home3/progpama/vselivjorstovs.progpamati.lv/db_delete/delete_plan.php on line 2
+[19-May-2021 22:20:32 Europe/Riga] PHP Fatal error:  require_once(): Failed opening required 'db_connection.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home3/progpama/vselivjorstovs.progpamati.lv/db_delete/delete_plan.php on line 2
